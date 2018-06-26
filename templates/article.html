@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<div class="jumbotron text-center">
+  <h1> Article {{id}}</h1>
+  {% if id == "1" %}
+    <p class="lead">Welcome  to the first tutorial</p>
+    {% else %}
+    <p class="lead">Whatever</p>
+  {% endif %}
+</div>
+
+{% endblock %}
