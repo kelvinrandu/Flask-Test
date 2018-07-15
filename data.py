@@ -1,3 +1,5 @@
+# Code below represents a set of data to be used as the articles in the app
+
 def Articles():
 	articles = [
 		{
